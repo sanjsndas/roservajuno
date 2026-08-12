@@ -1,0 +1,2121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roservajuno : Disclaimer</title>
+    <meta property="og:title" content="Roservajuno : Disclaimer" />
+    <meta property="og:image" content="icon.png"/>
+    
+    <meta property="og:description" content="Roservajuno : Disclaimer">
+    <meta name="description" content="Roservajuno : Disclaimer">
+    
+
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" /> 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body{
+          direction: ltr;
+          font-family: 'Khand', sans-serif !important;
+          font-size: 18px;
+          margin: 0;
+          padding: 0px;
+          line-height: 1.3;
+          position: relative;
+        }
+
+        a {
+          cursor: pointer;
+          text-decoration: none;
+          color: unset;
+        }
+
+        img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        } 
+
+        ul{
+        margin: 0;
+        padding: 0;
+      }
+              
+        .container {
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 1200px !important;
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 991px) {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1999px){
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        .link {
+            text-decoration: none;
+        }
+
+        .link:hover,
+        .link:focus {
+            color: inherit;
+            cursor: pointer;
+        }
+        .list {
+            list-style: none;
+        }
+        .wrapper {
+            overflow: hidden;
+        }
+
+
+
+.header {   
+    transition: background-color 0.4s ease;
+}
+
+.navbar-custom {
+  direction: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: transparent;    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scrolled {
+    background-color:#180707; 
+}
+.navbar-site{
+    color:#006F5F;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+  width: 37px;
+    transition: transform 0.3s;
+}
+
+.logo a:hover {
+    transform: scale(1.1);
+} 
+
+
+.nav {
+  overflow: hidden;
+  position: absolute;
+  right: 141px;
+  width: auto;
+  height: 100%;
+  margin-top: 0;
+  background: transparent;
+  border-radius: 30px;; 
+}
+
+.nav__cb {
+  z-index: -1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav__content {
+  position: relative;
+  height: 100%;
+  transition: width 1s cubic-bezier(0.49, -0.3, 0.68, 1.23);
+}
+
+.nav__cb:checked ~ .nav__content {
+  transition: width 1s cubic-bezier(0.48, 0.43, 0.29, 1.3);
+  width: fit-content;
+}
+
+.nav__items {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 50px;
+  list-style-type: none;
+}
+
+.nav__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px; 
+  text-align: center;
+  white-space: nowrap;
+  color:#006F5F;
+  font-size: 18px;  
+  font-weight: 800;
+  perspective: 1000px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav__item:hover {
+  color: #006F5Fd6;
+}
+
+.nav__item-text {
+  display: block;
+  height: 100%;
+  transform: rotateY(-70deg);
+  opacity: 0;
+  transition: transform 0.7s cubic-bezier(0.48, 0.43, 0.7, 2.5), opacity 0.7s;
+}
+
+.nav__cb:checked ~ .nav__content .nav__item-text {
+  transform: rotateY(0);
+  opacity: 1;
+  transition: transform 0.7s cubic-bezier(0.48, 0.43, 0.7, 2.5), opacity 0.2s;
+}
+
+.nav__item:nth-child(1) .nav__item-text {
+  transition-delay: 0.3s;
+}
+
+.nav__cb:checked ~ .nav__content .nav__item:nth-child(1) .nav__item-text {
+  transition-delay: 0s;
+}
+
+.nav__item:nth-child(2) .nav__item-text {
+  transition-delay: 0.2s;
+}
+
+.nav__cb:checked ~ .nav__content .nav__item:nth-child(2) .nav__item-text {
+  transition-delay: 0.1s;
+}
+
+.nav__item:nth-child(3) .nav__item-text {
+  transition-delay: 0.1s;
+}
+
+.nav__cb:checked ~ .nav__content .nav__item:nth-child(3) .nav__item-text {
+  transition-delay: 0.2s;
+}
+
+.nav__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.nav__btn:before,
+.nav__btn:after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 4px;
+  border-radius:30px;
+  background: #d1d1d1;
+  transform-origin: 50% 50%;
+  transition: transform 1s cubic-bezier(0.48, 0.43, 0.29, 1.3), background-color 0.3s;
+}
+
+.nav__btn:before {
+  margin-bottom: 11px;
+}
+
+.nav__btn:hover:before,
+.nav__btn:hover:after {
+  background: #e5e5e5;
+}
+
+.nav__cb:checked ~ .nav__btn:before {
+  transform: translateY(7.5px) rotate(-225deg);
+}
+
+.nav__cb:checked ~ .nav__btn:after {
+  transform: translateY(-7.5px) rotate(225deg);
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+      padding: 20px;
+      line-height: 1.3;
+  }
+  .logo a,
+  .navbar-brand {            
+      font-size: 13px;
+      flex-direction: column;
+  }
+  .nav {
+      right: 0px; 
+  }
+  .nav__cb:checked ~ .nav__content {
+      width: fit-content;
+  } 
+  .nav__item {
+      margin-top: 45px;
+      font-size: 13px;
+  } 
+  .nav__btn {
+      padding: 10px 22px;
+  }
+  .nav__btn:before,
+  .nav__btn:after{
+      width: 20px;
+  }
+}
+
+.hero {   
+    height: 100vh;
+    display: flex;
+    position: relative;
+    padding: 69px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(10 10 10 / 40%), rgb(0 0 0 / 57%)), url('static/images/section-bg_q800.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    }        
+
+    .hero-content {
+    position: relative;
+    z-index: 1;        
+    }  
+
+    .hero h1 {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1.3; 
+      animation: flyIn 2s ease-out forwards; 
+    }
+
+    .hero h1,
+    .hero p,
+    .hero a {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+
+    @keyframes flyIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.95);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(-10px) scale(1.02);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    }
+  
+    .hero p {
+        color: #ffffffb3;
+        font-size: 18px;   
+        animation: flyIn 2s ease-out forwards 1s; 
+    }
+    
+    .hero a {
+        width: auto;
+        animation: flyIn 2s ease-out forwards 2s; 
+    }
+
+    @media (max-width: 768px) {
+        .hero{
+          padding: 27px;
+        }        
+        .hero h1 {
+            font-size: 23px;
+        }
+
+        .hero p {
+            font-size: 15px;
+        }        
+    }
+
+    @media (max-width: 480px) {
+        .hero h1 {
+            font-size: 19px;
+        }
+
+        .hero p {
+            font-size: 13px;
+        }
+    }
+
+
+.services-section {
+  background-color: #120a1f;
+  color: #ffffff;
+  padding: 25px 109px;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 49px 25px;
+}
+
+.services-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 100px;
+  flex-direction: row;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 992px) {  
+
+  .col-lg-5 {
+    width: calc(50% - 15px);
+  }
+}
+
+.card {
+  position: relative;
+}
+
+.services-content-wrapper {
+  padding: 25px 0;
+}
+
+.services-section-title {   
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 27px;
+    justify-self: right;    
+}
+
+.service-title {   
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+}
+
+.text-wrapper {
+  margin-bottom: 30px;
+}
+
+.mbr-text {
+  font-size: 18px;
+  font-weight: 800
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mbr-section-btn {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  background-color: #006F5F;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #006F5F09;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrap {
+  position: relative;
+  border-radius:30px;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+}
+
+.image-wrap img {
+  width: 100%;
+  height: 383px;
+  object-fit: cover;
+  display: block;
+  border-radius: 30px;
+}
+
+.mobi-mbri-growing-chart:before {
+  content: "↗";
+}
+
+@media (max-width: 991px) {
+  .services-section {
+    padding: 0;
+  }
+  .services-container{
+    padding: 49px 27px; 
+  }
+  .services-row {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .services-section-title {
+    font-size: 20px;
+  }
+
+  .image-wrap {
+    margin-top: 30px;
+  }
+  .sevice-row-reverse{
+    flex-direction: column-reverse;
+}
+}
+
+
+.main-article-section {  
+    background-color: #120a1f;
+    color: #ffffff;
+    padding:25px 109px;
+}
+
+.main-artical-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 49px 25px;
+}
+
+.artical-content {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.main-article-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    justify-self: right; 
+}
+.main-item {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+}
+
+.main-artical-image {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding-bottom: 10px;   
+    overflow: hidden;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.2);
+}
+
+.main-artical-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+    margin-bottom:10px;
+}
+.cta-button {
+    background-color: #4e4852;
+    color: #006F5F;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: background-color 0.3s ease;
+}
+    
+.cta-button:hover {
+    background-color: #585858;
+    color: #006F5F;
+} 
+.artical-description {
+    color: #dfdfdf;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+.artical-description li {
+  margin: 0 10px;
+}
+.artical-price {
+    display: inline-block;        
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #006F5F;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;    
+    transition: background-color 0.3s;
+}
+ 
+
+@media (max-width: 991px) {
+  .main-article-section {
+      padding: 0px;
+  }
+  .main-item {
+      gap: 2rem;
+  }
+  .main-artical-container {
+      padding: 49px 27px;
+  }
+}
+
+@media (max-width: 768px) {    
+  .main-item {
+    flex-direction: column;
+}
+  .main-artical-image {      
+    max-width: 100%;      
+}
+  .artical-content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-article-title {
+    font-size: 28px; 
+  }
+  .artical-description {
+    font-size: 13px;
+  }
+}
+
+
+.tarif-section {
+  background-color: #120a1f;
+  color: #ffffff;
+  padding: 25px 109px;
+}
+
+.tarif-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 49px 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-lg-10 {
+  width: 100%;  
+}
+
+.title-wrapper {
+  margin-bottom: 50px;
+}
+
+.mbr-section-title {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.features-image{
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.card-box {
+  flex: 1;
+}
+
+.item-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tag-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+}
+
+.mbr-tag {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #006F5F;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight:600;
+}
+
+.card-title {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style-type: none;
+  margin-bottom: 30px;  
+}
+
+.item-wrap {
+  position: relative;
+  padding-left: 27px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.item-wrap::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+}
+
+.mbr-section-btn {
+  margin-top: auto;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  color: #006F5F;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight:600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-shadow: 0 -1px rgba(0,0,0,.5);
+  user-select: none; 
+  transition: .2s;
+
+}
+
+.btn:hover {
+  background:#006F5Fe6;
+}
+
+.btn:active {
+  box-shadow:
+   0 2px rgb(13, 89, 12),
+   0 1px 6px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+
+@media (max-width: 1200px) {
+  .items-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    justify-items: center;    
+  }
+}
+
+@media (max-width: 991px) {
+  .tarif-section {
+    padding: 0;
+  }  
+}
+
+@media (max-width: 768px) {
+  .items-wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .mbr-section-title {
+    font-size: 30px;
+  }
+  .item-img {
+    height: 300px;
+  }
+}
+  
+@media (min-width: 769px) and (max-width: 1200px){
+  .tarif-container {
+    padding: 52px 119px;
+  }
+} 
+
+.benefit-section {
+  background-color: #120a1f;
+  color: #FFFFFF;
+  padding:25px 109px;
+}
+
+.benefit-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 49px 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-left {
+  width: 100%;
+}
+
+.col-right {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-left {
+    width: calc(40% - 15px);
+  }
+  .col-right {
+    width: calc(60% - 15px);
+  }
+}
+
+.benefit-title-wrapper {
+  margin-bottom: 40px;
+}
+
+.benefit-section-title {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.benefit-tabs-wrapper {
+  margin-bottom: 30px;
+}
+
+.benefit-tabs-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.benefit-tab-item {
+  width: 100%;
+}
+
+.benefit-tab-button {
+  display: block;
+  padding: 10px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #006F5F;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.benefit-tab-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.benefit-tab-button.active {
+  background-color: #e7feed;
+  color: #000000;
+}
+
+.tab-content {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 30px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 0 100px #ffffff33;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrap {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+
+.text-wrapper {
+  padding: 0 25px 25px;
+}
+
+.item-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 991px) {
+  .benefit-container {
+    padding: 49px 27px;
+  }  
+  .benefit-section {
+    padding: 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .tabs-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .tab-item {
+    width: auto;
+  }
+  .image-wrap {
+    height: auto;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .benefit-section-title {
+    font-size: 28px;
+  }
+  .tab-button {
+    padding: 10px 15px;
+  }
+  .image-wrap {
+    height: 200px;
+  }
+}
+
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+:root {
+  --base-size: 300px;
+  --primary-color: #006F5F;
+  --easing: 2s;
+}
+
+.badge {
+  display: block;
+  position: relative;
+  width: var(--base-size);
+  height: var(--base-size);  
+  border-radius: 50%;
+  transition: var(--easing);
+  box-shadow: 0px 0.5rem 1rem rgba(255, 255, 255, 0.75);
+}
+
+.badge:hover,
+.badge:active {
+  box-shadow: 0px 0.5rem 2rem rgba(255, 255, 255, 0.75);
+  background-position: 0% 50%;
+}
+
+.badge .text {
+  display: block;
+  position: absolute;
+  width: calc(var(--base-size) / 2);
+  height: calc(var(--base-size) / 2); 
+  left: 50%;
+  top: 80%;
+  margin-top: calc(-1 * var(--base-size) / 4);
+  margin-left: calc(-1 * var(--base-size) / 4);
+  font-size:18px; 
+  text-align: center;
+  color: #006F5F;
+  border-radius: 50%;
+  background: #000;
+  transform: rotate(-180deg) translate(calc(-1 * var(--base-size) / 2)) rotate(180deg);
+  box-shadow: 0px 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  transition: var(--easing);
+}
+
+.badge:hover .text {
+  transform: rotate(-90deg) translate(90px) rotate(-270deg);
+  background: rgba(18, 18, 18, 0.5); 
+  width: var(--base-size);
+  height: var(--base-size); 
+  margin-top: calc(-1 * var(--base-size) / 2);
+  margin-left: calc(-1 * var(--base-size) / 2); 
+  transition: var(--easing), letter-spacing 1.5s ease-out;
+}
+
+.team-description{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.badge:hover .team-description,
+.badge:active .team-description {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 6s ease, visibility 6s ease;
+}
+
+.card-name {
+  font-size: 14px;
+    height: inherit;
+    margin: 0;
+    align-content: center;
+    color: #006F5F;
+}
+
+
+.team-section {
+    background-color: #120a1f;
+    color: #ffffff;;
+    padding: 25px 109px;
+}
+
+.team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 49px 25px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+    .team-section{
+        padding: 49px 0;
+    }  
+} 
+
+
+@media (max-width: 991px) {
+  .badge {       
+    --base-size: 300px;
+    transition: background-size 0.8s ease;
+  }
+  .badge .text {
+    font-size: 18px;    
+  }
+  .badge:hover .card-name {
+    height: unset;
+  }
+  .badge:hover .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 37px;
+    transform: rotate(-90deg) translate(90px) rotate(-270deg);
+  } 
+  .team-container{
+    padding: 49px 27px;
+  }   
+}
+
+@media (max-width: 576px) {
+    .badge {       
+        --base-size: 200px;
+        transition: background-size 0.8s ease;
+  }
+    .badge .text {
+        font-size: 13px;    
+  }
+    .badge:hover .card-name {
+        height: unset;
+    }
+    .badge:hover .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 37px;
+        transform: rotate(-90deg) translate(60px) rotate(-270deg);
+    }    
+}
+
+
+.contact-section {    
+  background-color: #120a1f;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 109px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 49px 25px;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.contact-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.contact-flex svg {
+    fill: #006F5F;
+    width: 70px;
+    min-width: 70px;
+    transition: transform 0.6s ease;
+}
+
+.contact-flex svg:hover { 
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+@media (min-width: 992px) {
+  .col-lg-5 {
+    width: calc(50% - 15px);
+  }
+}
+
+.contact-card {
+  border-radius: 30px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-wrapper {
+  padding: 49px 25px;
+}
+
+.mbr-section-title {
+  font-size: 45px;
+  font-weight: 800
+  margin-bottom: 27px;
+  margin-top: 27px;
+  line-height: 1.2;  
+}
+
+.form-text-wrapper {
+  padding: 0px;
+}
+
+.mbr-text {
+  font-size: 18px;
+  font-weight: 800
+  color: rgba(255, 255, 255, 0.8);
+}
+.mbr-text b {
+  text-align: center;
+}
+.form-wrap {
+  background-color: #e8f8e8;
+  border-radius: 30px;
+  color: #222;
+}
+
+.form-wrapper {
+  padding:49px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.input-form--item--part,
+.textarea-form--item--part {
+  width: 100%;
+  padding: 12px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.input-form--item--part:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.input-form--item--part::placeholder {
+  color: #888;
+}
+
+.textarea-form--item--part {
+  min-height: 100px;
+  resize: vertical;
+}
+
+textarea:focus-visible {
+  outline: 0px;
+}
+.mbr-section-btn {
+  margin-top: 20px;
+}
+
+.form-button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: #222;
+  color:#006F5F;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-button:hover {
+  background-color: #000;
+}
+
+@media (max-width: 991px) {
+    .contact-container {
+      padding: 49px 27px;    
+  }
+  .contact-section {
+    padding: 0;
+  }
+  .mbr-section-title {
+    font-size: 46px;
+  }
+
+  .form-wrapper {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mbr-section-title {
+    font-size: 28px;
+  }
+
+  .form-wrapper {
+    padding: 25px;
+  }
+
+  .form-button {
+    padding: 12px 25px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .contact-flex {
+      font-size: 13px;
+      gap: 20px;
+      margin-bottom: 30px;
+  } 
+  .contact-flex svg{
+      width: 40px;
+      min-width: 40px;
+  }
+}
+[hidden] {
+  display: none;
+}
+
+.faq-section {
+    background-color: #120a1f;
+    color: #ffffff;
+    border-bottom: 3px solid #6469af;
+    padding: 25px 109px;
+}
+
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 49px 25px;
+}
+
+.faq-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.col-left {
+    width: 100%;
+}
+
+.col-right {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-left,
+  .col-right {
+    width: calc(50% - 20px);
+  }
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrap {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.2);
+}
+
+.accordion {
+  margin-top: 10px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+}
+
+.accordion-header {
+  background: transparent;
+  padding: 0;
+}
+
+.accordion-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 25px 0;
+  background: transparent;
+  border: none;
+  color: #006F5F;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.accordion-trigger:focus {
+  outline: none;
+}
+
+.accordion-trigger:hover {
+    color: #6b7280;
+}
+
+.accordion-icon-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  color:#006F5F;
+  fill:#006F5F;
+  font-size: 23px;
+  
+}
+.accordion-icon-minus{
+    display: none;
+}
+
+.active .accordion-icon-plus {
+    display: none;
+}
+
+.active .accordion-icon-minus{
+    display: block;
+} 
+
+.accordion-icon-plus:hover {
+  fill: #6b7280;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-body {
+  padding: 0 0 25px 0; 
+  font-size: 18px;
+  color: #ffffffb3;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 200px;
+}
+
+@media (min-width: 640px) {   
+  .accordion-trigger {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .faq-container {
+    padding: 49px 27px;
+  }
+}
+
+
+.footer {
+  background-color:#000; 
+  color: #fff; 
+  text-align: center;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  margin: 0 -15px;
+}
+
+.footer-col {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 1.5rem;
+  font-size: 13px;
+}
+
+.footer-contact-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center; 
+  margin-top: 30px;  
+}
+
+.footer-logo a { 
+  align-items: center;
+  text-decoration: none; 
+  font-size: 18px;
+  font-weight: 600;
+  justify-items: center;
+}
+
+.footer-logo img {
+  width: 37px  
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.8;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+}
+
+@media (min-width: 769px) {
+  .footer-col {
+    margin-bottom: 0;
+  }
+  .footer-logo a,
+  .navbar-brand a {
+    flex-direction: row-reverse; 
+}
+}
+
+@media (max-width: 768px) {
+    .footer-heading {
+        font-size: 13px;
+    }
+    .footer-heading p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+  footer {
+    text-align: left;
+  }
+  
+  .footer-col {
+    width: 33.333333%;
+  }
+  .footer-logo a,
+  .navbar-brand a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px; 
+  }
+  
+  .footer-copyright {
+    text-align: center;
+  }
+}
+@media (max-width:991px) {
+    .footer-logo {
+        justify-content: center;
+    }
+}
+
+.container-pravicy {
+  color: #666;
+  padding: 109px;
+}
+
+.content-pravicy p {
+    font-size: 18px;   
+    line-height: 1.6;  
+}
+.content-pravicy li {
+    margin-bottom: 20px;  
+}
+
+@media (max-width: 991px) {
+  .container-pravicy {
+        padding: 45px 10px
+       
+    }
+}
+
+ .go-top-btn-wraper {
+    position: fixed;
+    width: 52px;
+    height: 52px;
+    bottom: 27px;
+    right: 27px;
+    z-index: 3;
+    }
+
+ .go-top-button {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#006F5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    animation: pulse 2s infinite;
+    z-index: 2;
+  }
+
+  .go-top-button:hover svg {
+    transform: translateY(-6px);
+    fill: #006F5F;
+  }
+
+  .go-top-button svg {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s ease;
+    z-index: 3;
+    fill: #000;
+  }
+  
+  .wave-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 62px;
+    height: 62px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .wave-ring {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(168, 216, 168, 0.3);
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  .go-top-button:hover {
+      background-color: transparent;
+      border: solid 3px #006F5F;
+  }
+
+  .go-top-button:hover ~ .wave-container .wave-ring:nth-child(1) {
+    animation: wave 1.5s ease-out forwards;
+  }
+
+  .go-top-button:hover ~ .wave-container .wave-ring:nth-child(2) {
+    animation: wave 1.5s ease-out 0.4s forwards;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.08);
+    }
+  }
+
+  @keyframes wave {
+    0% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(4);
+    }
+  }
+
+
+.view {
+  display: none;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 100px;
+  bottom: 120px;
+  perspective: 400px;
+}
+
+.plane {
+  transform-style: preserve-3d;
+}
+
+.plane.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateX(60deg) rotateZ(-30deg);
+  animation: rotate 20s infinite linear;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px #006F5F, inset 0 0 60px #120a1f;
+}
+
+.circle::before,
+.circle::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  background: #006F5F;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px 2px #ffffff33;
+}
+
+.circle::before {
+  transform: translateZ(calc(-1 * var(--l)));
+}
+
+.circle::after {
+  transform: translateZ(var(--l));
+}
+
+.circle:nth-child(1) {
+  transform: rotateZ(calc(1 / 5 * 360deg)) rotateX(63.435deg);
+}
+.circle:nth-child(2) {
+  transform: rotateZ(calc(2 / 5 * 360deg)) rotateX(63.435deg);
+}
+.circle:nth-child(3) {
+  transform: rotateZ(calc(3 / 5 * 360deg)) rotateX(63.435deg);
+}
+.circle:nth-child(4) {
+  transform: rotateZ(calc(4 / 5 * 360deg)) rotateX(63.435deg);
+}
+.circle:nth-child(5) {
+  transform: rotateZ(calc(5 / 5 * 360deg)) rotateX(63.435deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+@media(max-width: 550px) {
+  .navbar-site {
+    display: none;
+  }  
+  .nav__items {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+    </style>
+
+
+</head>
+
+<body>
+   
+   
+
+
+    <header class="header navbar-custom">
+        <div class="logo navbar-brand">                        
+            <a href="./">
+                <div class="navbar-site">Roservajuno</div>
+                <img src="icon.png">
+            </a>
+        </div>  
+        <nav class="nav">
+            <input type="checkbox" class="nav__cb" id="menu-cb"/>
+            <div class="nav__content">
+              <ul class="nav__items">
+                <li class="nav__item">
+                    <a class="nav__item-text" href="./">Home</a>
+                </li> 
+                <li class="nav__item">
+                    <a class="nav__item-text" href="./#aboutUs">About us</a>
+                </li>                 
+                </li>
+                                 
+              </ul>
+            </div>
+            <label class="nav__btn" for="menu-cb"></label>
+        </nav>
+
+    </header>    
+    
+
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="content-wrapper">
+            <h1>
+                <b>We embody your vision of beauty with every flower!</b>
+            </h1>
+            <p>Welcome to Roservajuno, your trusted partner in home flower and plant care. We provide expert advice and personalized services to keep your indoor garden thriving and beautiful. Whether you're a beginner or a seasoned plant lover, our team is here to help you create a lush, vibrant space that brings nature's beauty indoors.</p>
+            
+            </div>
+        </div>
+    </section>   
+
+ 
+
+    <section class="container-pravicy">
+        <div class="inside-wt">
+            <div class="container">
+                <div class="content-block">
+                    <div class="content-pravicy"><div id="disclaimer-container" class="disclaimer-main">
+  <div id="intro-section" class="disclaimer-section-wrap">
+    <h2 id="intro-header" class="disclaimer-title">Introduction</h2>
+    <p class="disclaimer-text">
+      Welcome to Roservajuno. This comprehensive document outlines our Disclaimer, Privacy Policy, and Terms of Use (collectively referred to as the “Agreement”), which govern your interaction with and utilization of our services. The purpose of this Agreement is to clarify our liability limitations, the nature of the information we provide, and our procedures concerning data collection, retention, and security. Your engagement with our website and services signifies your full acceptance of this entire Agreement. We urge you to review these provisions thoroughly.
+    </p>
+    <p class="disclaimer-text">
+      The content presented herein is for informational purposes only and should not be considered legal counsel. It is incumbent upon you to familiarize yourself with and comprehend these terms. Should you find any part of this Agreement unacceptable, please refrain from accessing or using our services. We retain the unilateral right to revise or update this Agreement at any time, without prior notification.
+    </p>
+    <p class="disclaimer-date">
+      Effective Date: 07.17.2026
+    </p>
+  </div>
+
+  <div id="service-description-section" class="disclaimer-section-wrap">
+    <h2 id="service-description-header" class="disclaimer-title">Service Details and General Stipulations</h2>
+    <p class="disclaimer-text">
+      Roservajuno endeavors to deliver professional services upholding the highest standards of quality and diligence. While we strive for the accuracy, currency, and reliability of the information displayed on our platform, all content is provided strictly "as is," without any warranties, whether explicit or implied. This includes, but is not restricted to, implied guarantees of marketability, suitability for a particular purpose, or non-infringement of rights.
+    </p>
+    <p class="disclaimer-text">
+      Any reliance you place on the content, offerings, or materials available through our website is undertaken solely at your own risk. Neither Roservajuno, nor its affiliated entities, partners, or agents, shall bear any responsibility or liability for any losses or damages incurred from your use of our service, access to our website, or reliance upon any information presented herein.
+    </p>
+    <p class="disclaimer-text">
+      Our services may incorporate content from third parties or provide links to external websites. These external resources operate under their own distinct privacy policies and operational guidelines, for which we disclaim all responsibility and liability concerning their content, veracity, or operational practices.
+    </p>
+  </div>
+
+  <div id="privacy-policy-section" class="disclaimer-section-box">
+    <h2 id="privacy-policy-header" class="disclaimer-title">Privacy and Data Safeguarding</h2>
+    <p class="disclaimer-text">
+      At Roservajuno, your privacy is paramount, and we are dedicated to safeguarding your personal data in strict adherence to applicable legal frameworks. Our privacy protocols are meticulously designed to align with robust United States privacy legislation, including the California Consumer Privacy Act (CCPA) where relevant, and other pertinent regulations. We are committed to protecting your data through the deployment of advanced security measures.
+    </p>
+    <p class="disclaimer-text">
+      The data we gather serves the objectives of facilitating our services, enriching the user experience, and ensuring the secure and proper functioning of our website. This collected data may encompass, but is not limited to, your interaction patterns, preferences, and any other details you voluntarily submit through our website's forms or direct engagements.
+    </p>
+    <p class="disclaimer-text">
+      <strong>Information Collection:</strong> We may accumulate various categories of information, encompassing both personally identifiable data and non-personal data. Personal data refers to any details that can be utilized to pinpoint you as an individual. Non-personal data, conversely, includes information that does not directly or indirectly identify you.
+    </p>
+    <p class="disclaimer-text">
+      <strong>Information Utilization:</strong> All collected information is exclusively employed for operating and refining our services, communicating with you regarding our offerings, and upholding the security of our systems. We explicitly state that we do not lease, vend, or disseminate your personal information to any third parties, except when indispensable for fulfilling your service requests, complying with legal mandates, or with your explicit consent.
+    </p>
+    <p class="disclaimer-text">
+      <strong>Data Retention:</strong> Your personal information will be retained only for the duration essential to accomplish the purposes articulated above, or as legally stipulated. Once the designated data retention period concludes, your personal data will be securely and confidentially eradicated.
+    </p>
+    <p class="disclaimer-text">
+      <strong>Data Security:</strong> We employ industry-leading security protocols, including encryption technologies and secure data storage methodologies, to shield your personal information from unauthorized access, unwarranted disclosure, alteration, or destruction. Notwithstanding these efforts, no transmission or storage method can guarantee absolute security; therefore, we cannot offer an infallible guarantee of security.
+    </p>
+    <p class="disclaimer-text">
+      <strong>Your Entitlements:</strong> Pursuant to applicable privacy statutes, including provisions under the California Consumer Privacy Act, you may possess the right to solicit access to your personal data, request corrections or deletions of inaccurate or obsolete information, and impose restrictions on the processing of your data. You may exercise these rights by contacting us through our designated communication channels. We commit to addressing such requests promptly and in accordance with our legal obligations.
+    </p>
+  </div>
+
+
+  <div id="limitation-liability-section" class="disclaimer-section-wrap">
+    <h2 id="limitation-liability-header" class="disclaimer-title">Limitation of Responsibilities</h2>
+    <p class="disclaimer-text">
+      Under no circumstances shall Roservajuno, its executives, officers, personnel, representatives, or associated entities be held accountable for any direct, indirect, incidental, special, consequential, or punitive damages. This includes, but is not confined to, financial losses, reputational harm, loss of data, or other intangible detriments arising from the access or inability to access our services. This limitation of liability remains effective regardless of whether Roservajuno was apprised of the potential for such damages.
+    </p>
+    <p class="disclaimer-text">
+      Should our services fail to meet your expectations or result in any form of loss, you acknowledge and agree that your exclusive and sole recourse is to cease using our services. Furthermore, you accept that any reliance placed on information obtained from our services is entirely at your own peril.
+    </p>
+    <p class="disclaimer-text">
+      Roservajuno does not guarantee that the operational aspects of the services or the functioning of the website will be continuous or devoid of errors. The website may encounter periods of unavailability, modifications, or delays, and consequently, Roservajuno bears no liability for issues stemming from such occurrences.
+    </p>
+  </div>
+
+  <div id="no-warranty-section" class="disclaimer-section-box">
+    <h2 id="no-warranty-header" class="disclaimer-title">Absence of Warranties and Disclaimer of Endorsement</h2>
+    <p class="disclaimer-text">
+      All content presented on our website is provided on an “as is” and “as available” basis. Roservajuno explicitly renounces any warranties or declarations, whether expressed or implied, including but not limited to assurances of accuracy, suitability for a specific objective, or non-infringement. We shall not, under any circumstances, be answerable for any inaccuracies or outdated information.
+    </p>
+    <p class="disclaimer-text">
+      Any hyperlinks leading to external websites from our pages are furnished strictly for your convenience. Roservajuno neither governs, endorses, nor accepts any responsibility for the content, privacy frameworks, or operational methodologies of these external platforms. Your decision to access any third-party website is made entirely at your own risk.
+    </p>
+  </div>
+
+  <div id="indemnification-section" class="disclaimer-section-box">
+    <h2 id="indemnification-header" class="disclaimer-title">Indemnification Obligation</h2>
+    <p class="disclaimer-text">
+      You hereby agree to indemnify, defend, and hold harmless Roservajuno, along with its personnel, executives, directors, agents, and affiliates, from any and all claims, damages, duties, losses, liabilities, expenses, and costs (including reasonable legal fees) that arise from or relate to your utilization of the website, any breach of these stipulated terms, or your infringement upon the intellectual property or other rights of any individual or entity.
+    </p>
+    <p class="disclaimer-text">
+      This indemnification commitment shall persist beyond the termination of your engagement with our services and this Agreement.
+    </p>
+  </div>
+
+  <div id="user-responsibility-section" class="disclaimer-section-container">
+    <h2 id="user-responsibility-header" class="disclaimer-title">User Obligations and External Content</h2>
+    <p class="disclaimer-text">
+      Your engagement with our website and services is entirely at your discretion. We expect all users to exercise prudence and careful judgment when interacting with third-party content that may be accessible through our platform. This encompasses, but is not confined to, content supplied by advertisers or other business associates.
+    </p>
+    <p class="disclaimer-text">
+      While we endeavor to oversee and manage the content made available on our website, Roservajuno cannot vouch for the accuracy, relevance, or comprehensiveness of any external material. Any reliance placed on third-party content is solely at your own risk, and you concur that we bear no accountability for any inaccuracies or misrepresentations contained therein.
+    </p>
+  </div>
+
+  <div id="changes-updates-section" class="disclaimer-section-block">
+    <h2 id="changes-updates-header" class="disclaimer-title">Modifications, Updates, and Revisions</h2>
+    <p class="disclaimer-text">
+      Roservajuno retains the exclusive authority to amend, interpret, or revise this Agreement at any juncture and without advance notification. All such modifications will become effective immediately upon their publication on our website. It is your ongoing responsibility to regularly review this Agreement to remain apprised of any updates.
+    </p>
+    <p class="disclaimer-text">
+      Your continued utilization of our services after any changes signifies your acceptance of the updated Agreement. Should you not concur with the revised terms and conditions, you must promptly discontinue your use of the website and any associated services.
+    </p>
+  </div>
+
+  <div id="force-majeure-section" class="disclaimer-section-container">
+    <h2 id="force-majeure-header" class="disclaimer-title">Unforeseen Circumstances (Force Majeure)</h2>
+    <p class="disclaimer-text">
+      Under no circumstances shall Roservajuno be held liable for any failure or delay in fulfilling its obligations if such impediment arises from events beyond our reasonable control (force majeure). This includes, but is not limited to, natural catastrophes, governmental mandates, labor disputes, or any other unforeseen occurrences.
+    </p>
+    <p class="disclaimer-text">
+      In the event of a force majeure situation, Roservajuno will exert reasonable efforts to recommence performance as expeditiously as possible, but we cannot be held responsible for any resultant harm, losses, or inability to access the website.
+    </p>
+  </div>
+
+  <div id="legal-notices-section" class="disclaimer-section-block">
+    <h2 id="legal-notices-header" class="disclaimer-title">Legal Provisions and Supplementary Disclosures</h2>
+    <p class="disclaimer-text">
+      The stipulations within this Agreement are governed by and shall be interpreted in accordance with the legal provisions prevailing in the United States jurisdiction. In the instance of a dispute concerning your use of the website or our services, you consent to first endeavor to resolve the matter informally by contacting us. Should an informal resolution prove unattainable, you further agree that any ensuing legal actions must be initiated exclusively in courts possessing appropriate jurisdiction.
+    </p>
+    <p class="disclaimer-text">
+      Roservajuno does not guarantee prior notification of updates to our legal policies or services. Users are advised to regularly consult these provisions to stay informed about any changes that may impact their rights and responsibilities.
+    </p>
+    <p class="disclaimer-text">
+      Should any specific clause of this Agreement be declared invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall nonetheless retain their full force and effect.
+    </p>
+  </div>
+
+  <div id="compliance-section" class="disclaimer-section-container">
+    <h2 id="compliance-header" class="disclaimer-title">Adherence to Applicable Legislation</h2>
+    <p class="disclaimer-text">
+      Our operational methodologies are structured to comply with all pertinent laws and regulations effective within the United States. Specifically, we uphold the mandates and requisites of the California Consumer Privacy Act (CCPA), which grants individuals enhanced rights concerning their personal information. Where applicable, Roservajuno provides mechanisms enabling users to review, modify, or request the erasure of their personal data.
+    </p>
+    <p class="disclaimer-text">
+      While we continuously refine our privacy policies and security practices to meet current industry benchmarks, users are encouraged to seek independent legal counsel if they harbor any questions or uncertainties regarding our adherence to applicable laws.
+    </p>
+    <p class="disclaimer-text">
+      This Agreement, in conjunction with any other terms explicitly referenced herein, constitutes the complete understanding between you and Roservajuno pertaining to your access and utilization of the website, thereby superseding any prior agreements or understandings.
+    </p>
+  </div>
+
+  <div id="user-agreement-section" class="disclaimer-section-wrap">
+    <h2 id="user-agreement-header" class="disclaimer-title">User Consent and Affirmation</h2>
+    <p class="disclaimer-text">
+      By accessing and leveraging the services offered by Roservajuno, you confirm that you have read, comprehended, and consented to be bound by all the stipulations and conditions articulated within this Agreement. Should you disagree with any of these provisions, you are required to immediately cease using our website and associated services.
+    </p>
+    <p class="disclaimer-text">
+      Your continued engagement with our services signifies your acceptance of any subsequent alterations made to this Agreement. We recommend that you routinely review the policy to remain informed about any prospective modifications.
+    </p>
+    <p class="disclaimer-text">
+      Roservajuno values your trust and is committed to maintaining transparent protocols regarding data security, privacy, and the delivery of our services. We invite you to reach out to us via our designated communication channels with any inquiries, concerns, or requests pertaining to your personal information or this Agreement.
+    </p>
+  </div>
+
+  <div id="final-remarks-section" class="disclaimer-section-block">
+    <h2 id="final-remarks-header" class="disclaimer-title">Concluding Statements</h2>
+    <p class="disclaimer-text">
+      This Agreement, alongside our Privacy Policy and any other user agreements, embodies the totality of the understanding between you and Roservajuno concerning the terms governing the provision of our services. We strongly advise that you secure a printed or digital copy of these terms for your personal records.
+    </p>
+    <p class="disclaimer-text">
+      If any portion of this Agreement is deemed unenforceable or invalid by a court of competent jurisdiction, the remaining sections of the Agreement shall nevertheless remain fully operative and binding. Your decision to utilize our website and services indicates your acceptance of these terms, including any future revisions enacted in response to evolving legal or operational imperatives.
+    </p>
+    <p class="disclaimer-text">
+      We extend our gratitude for choosing Roservajuno. We are dedicated to providing our services responsibly and with profound respect for your rights and privacy. Our commitment persists in enhancing your user experience while diligently safeguarding your personal data.
+    </p>
+  </div>
+</div></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+
+ 
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col">
+            <div class="footer-logo">
+                <a href="./">Roservajuno
+                    <img src="icon.png">
+                </a>
+            </div>           
+          <p>We embody your vision of beauty with every flower!</p>
+        </div>        
+
+        <div class="footer-col">
+          <h5 class="footer-heading">Site Links</h5>
+          <ul class="footer-links">
+            <li><a href="Privacy.html">Privacy policy</a></li>
+            <li><a href="terms-of-service.html">Terms & Conditions</a></li>
+            <li><a href="legal-disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 class="footer-heading">Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="./">Home</a></li>
+            <li><a href="./#aboutUs">About us</a></li>
+                        
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2026 Roservajuno
+    </div>
+</footer>     
+
+
+    <div class="go-top-btn-wraper">
+        <a class="go-top-button" href="#hero">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+          </svg>
+        </a>       
+        <div class="wave-container">
+          <span class="wave-ring"></span>
+          <span class="wave-ring"></span>
+        </div>
+      </div>
+   
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const header = document.querySelector('header'); 
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) { 
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
+</script>
+
+
+
+
+   
+    
